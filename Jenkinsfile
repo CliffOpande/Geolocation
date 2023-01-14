@@ -19,9 +19,9 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deployment') {
+        stage('Deploy') {
             steps {
-                echo 'Deploy Step'
+                echo 'Deployment Step'
                 sleep 10
             }
         }
